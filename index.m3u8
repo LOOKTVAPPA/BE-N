@@ -1,3 +1,9 @@
-#EXTM3U
-#EXT-X-STREAM-INF:BANDWIDTH=1280000
-https://akomov.com/live/1/2/1424.m3u8
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://www.mpeg.org/MPEG-DASH/schema/DASH-MPD.xsd" type="static" mediaPresentationDuration="PT1H0M0S" minBufferTime="PT1.500S">
+    <Period duration="PT1H0M0S">
+        <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
+            <Representation id="1" bandwidth="128000" codecs="avc1.4d401f" width="1280" height="720" frameRate="30" segmentDuration="6">
+                <BaseURL>http://ugeen.live:8080/live/Ugeen_VIPjwbGNF/eLvL71/56.m3u8</BaseURL>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+</MPD>
