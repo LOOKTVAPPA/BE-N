@@ -2,7 +2,7 @@
     <Period duration="PT1H0M0S">
         <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
             <Representation id="1" bandwidth="128000" codecs="avc1.4d401f" width="1280" height="720" frameRate="30" segmentDuration="6">
-                <BaseURL>http://ugeen.live:8080/live/Ugeen_VIPjwbGNF/eLvL71/56.m3u8</BaseURL>
+                <BaseURL>http://gcp-dash.ngslbs.com/TVD4001/index.mpd</BaseURL>
             </Representation>
         </AdaptationSet>
     </Period>
